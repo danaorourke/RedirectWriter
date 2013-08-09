@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*-----------------------------------------------------
+ *	version:	 (4/18/13)	
+ *	origin:		nope.com by Dana O'Rourke @ CupofTeaCreations.com
+-------------------------------------------------------*/
+
+
+/* reset - based off html5reset.com
+-------------------------------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+html {overflow-y: scroll;}
+body {line-height: 1;}
+focus {outline: 1;}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, video {display: block;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+a, img {border: 0; outline: none;}
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+table {border-collapse: collapse; border-spacing: 0;}
+input, select {vertical-align: middle;}
+
+/* general
+-------------------------------------------------------*/
+html {background: #EEEEEE; color: #080808; font: 16px/1.33 Helvetica, Arial, sans-serif; width: 100%;}
+body {padding: 50px 20px; margin: 0 auto; max-width: 900px;}
+h1, h2, h3 {padding-bottom: 20px;}
+input, select, option, button {font: 16px/1.33 Helvetica, Arial, sans-serif;}
+a, a:visited {color: #080808; text-decoration: none;}
+
+
+#header {border-bottom: 1px solid #cccccc; padding-bottom: 20px; text-align: center;}
+	#header h1 {font-size: 4.2em; padding-bottom: 0;}
+
+#content {padding: 40px 0;}
+	#content h1 {font-size: 3em;}
+	#content h2 {font-size: 2.5em;}
+	#content h3, #content h4, #content h5, #content h6 {font-size: 2em;}
+	#content p {padding-bottom: 20px;}
+	#content ul, #content ol {list-style: none; padding-bottom: 20px;}
+	
+	/* alert boxes */
+	.alert-box {margin: 0 0 10px 0; margin: 0 auto 20px; max-width: 600px;}
+		#content .alert-box p {padding: 10px 10px 10px 40px;}
+		.alert-box.warning {background: #fffbcc url("/img/warning.png") no-repeat 10px 50%; border: 1px solid #f7a003;}
+		.alert-box.success {background: #ceffbf url("/img/okay.png") no-repeat 10px 50%; border: 1px solid #18b301;}
+		.alert-box.error {background: #fccccc url("/img/error.png") no-repeat 10px 50%; border: 1px solid #d82727; color: #080808;}
+		.alert-box.info {background: #bfd0ff url("/img/info.png") no-repeat 10px 50%; border: 1px solid #2462ff;}
+		.alert-box.help {background: #bfd0ff url("/img/help.png") no-repeat 10px 50%; border: 1px solid #2462ff;}
+		
+		#permalink_help {background: url('/img/help.png') no-repeat; display: inline-block; height: 16px; text-indent: -9999px; width: 16px;}
+
+		.error {color: #880000;}
+
+	/* the form */
+	form {margin: 0 auto; max-width: 600px;}
+	form fieldset {padding-bottom: 40px;}
+	form legend {font-size: 2em; padding-bottom: 20px; text-align: center;}
+	
+	form li {padding-bottom: 20px;}
+	form ul ul li {float: left;}
+	
+	#xml ul ul li {width: 33%;}
+	#export {width: 100%;}
+	
+	#permalinks label, label[for='export'] {display: block; padding-bottom: 10px;}
+	#permalinks input {width: 100%;}
+	#type {padding-bottom: 40px;}
+	#type li {width: 50%;}
+	#generator li {float: none;}
+	
+	#go {display: block; font-size: 2em; margin: 0 auto; padding: 10px 20px; width: auto;}
+	
+#footer {border-top: 1px solid #cccccc; padding-top: 20px; margin-top: 20px; text-align: center;}
